@@ -1,0 +1,369 @@
+*{
+   margin: 0px;
+   padding: 0px;
+}
+
+
+
+/* shared item styles */
+.display-flex{
+    display: flex;
+}
+
+.display-grid{
+    display: grid;
+}
+
+header{
+    background-color: rgb(247, 247, 247);
+}
+/* orenge color */
+.orange{
+    color:rgb(254, 163, 1); ;
+}
+/* skyblue colors */
+.skyblue{
+    color:rgb(1, 172, 253);
+}
+.lightblue{
+    color: rgb(5, 212, 223);
+}
+.purple{
+    color: rgb(93, 88, 239);
+}
+/* white colors */
+.white{
+    color: white;
+}
+/* nav sections */
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+    
+}
+.nav-link{
+    text-decoration: none;
+}
+.navbar{
+    align-items: center;
+    justify-content: space-between;
+}
+.btn-primary{
+    border-radius: 12px;
+    background: rgb(254, 163, 1);
+    color: white;
+    padding: 10px;
+}
+
+/* banner sections */
+.title-color{
+    color:rgb(254, 163, 1) ;
+}
+.title-color1{
+    color: rgb(1, 172, 253);
+}
+.banner-section{
+    
+    width: 1158.61px;
+height: 575px;
+gap: 50;
+justify-content: space-between;
+align-items: center;
+border-bottom: 2px dashed rgb(247, 241, 241);
+}
+.banner-left{
+    flex-direction: column;
+ 
+}
+
+.banner-title{
+    font-size: 56px;
+font-weight: 700;
+}
+.banner-description{
+    font-size: 20px;
+    font-weight: 400;
+}
+.btn-primary1{
+    width: 197px;
+    height: 50px;
+    margin-top: 10px;
+    background-color:  rgb(17, 17, 17);
+    color: white;
+    border-radius: 12px;
+
+}
+
+
+/* box sections */
+.box-section{
+    background-image: url("assets/bg.png");
+    background-size: cover;
+    border-bottom: 2px dashed rgb(247, 241, 241);
+}
+.box-title{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 46px;
+    font-weight: 700;
+    margin-top: 60px;
+    margin-bottom: 80px;
+
+}
+
+.box1{
+    width: 367.8px;
+    height: 476.78px;
+    border: 1px solid gray ;
+    align-items: center;
+    justify-content: center;
+    
+    box-sizing: border-box;
+    border: 0.94px solid rgb(222, 245, 255);
+    border-radius: 18.86px;
+    
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.box2{
+    width: 367.8px;
+    height: 476.78px;
+    border: 1px solid gray ;
+    box-sizing: border-box;
+border: 0.94px solid rgb(255, 244, 220);
+border-radius: 18.86px;
+
+box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.box3{
+    width: 367.8px;
+    height: 476.78px;
+    border: 1px solid gray ;
+    box-sizing: border-box;
+border: 0.94px solid rgb(242, 232, 255);
+border-radius: 18.86px;
+
+box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.box-item{
+    gap: 30px;
+    text-align: center;
+    align-items: center;
+    margin-left: 140px;
+    margin-right: 140px;
+    
+}
+.box-description{
+     color: rgb(128, 128, 128);;
+}
+.box-btn1{
+    border: none;
+    color: rgb(100, 200, 255);
+    font-family: Quicksand;
+    font-size: 15.09px;
+    font-weight: 700;
+    line-height: 28.3px;
+
+}
+.box-btn2{
+    border: none;
+    background-color: none;
+    color: rgb(240, 170, 0);
+    font-family: Quicksand;
+    font-size: 15.09px;
+    font-weight: 700;
+    line-height: 28.3px;
+
+}
+.box-btn3{
+    border: none;
+    color: rgb(135, 0, 255);
+    font-family: Quicksand;
+    font-size: 15.09px;
+    font-weight: 700;
+    line-height: 28.3px;
+
+}
+.btn{
+  margin: 80px 0px;
+margin-top: 80px;
+margin-bottom: 60px;
+margin-left: 577.5px;
+}
+
+.btn-left{
+    width: 60px;
+    height: 60px;
+    border-radius: 80px;
+    background-color: rgb(254, 163, 1); 
+}
+.btn-right{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: rgb(254, 163, 1); 
+}
+
+
+/* about sections */
+.img-section{
+    background-image: url("assets/bg.png");
+    background: url("assets/bg.png"),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+    width: 1262px;
+    height: 1018.02px;
+    
+}
+.box-bo{
+    border-radius: 16px;
+    
+    text-align: center;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(3);
+    grid-template-rows: repeat(2);
+    grid-template-areas: 
+    " item1 item2   item3"
+    "item1   item4 item5"
+    ;
+}
+.img-title{
+    text-align: center;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 57.5px;
+    margin-top: 60px;
+}
+.box-item1{
+    border: 1px solid gray;
+    border-radius: 16px;
+    margin-top: 80px;
+    
+}
+
+.item1{
+    grid-area: item1;
+}
+.item-img{
+    border-radius: 16px 16px 0px 0px;
+}
+.item2{
+    
+   
+    grid-area: item2;
+}
+.item3{
+    grid-area: item3;
+}
+.item4{
+    grid-area: item4;
+}
+.item5{
+    grid-area: item5;
+}
+.item-button{
+    position: relative;
+    top: -22px;
+    border-radius: 47.93px;
+    width: 174.51px;
+    height: 38.35px;
+    background: rgb(149, 178, 38);
+  
+}
+.item-text{
+    font-family: Raleway;
+    font-size: 15.34px;
+    font-weight: 500;
+    line-height: 28.76px;
+}
+.img-div{
+    text-align: center;
+    align-items: center;
+    margin-top:80px ;
+    margin-bottom: 60px;
+}
+.img-button{
+    width: 197px;
+    height: 50px;
+    border-radius: 12px;
+    color: white;
+    background: rgb(17, 17, 17);
+    padding: 10px;
+   
+}
+
+/* footer section work */
+footer{
+   border: 2px solid ;
+    background: rgb(1, 172, 253);
+    color: white;
+}
+body{
+    border: 1px solid rgb(1, 172, 253);
+}
+
+.footer-section{
+    width: 1070px;
+    height: 222px;
+    margin-top: 122.98px;
+    margin-bottom: 174px;
+    justify-content: space-between;
+    align-items: center;
+   padding: 123px  50px 100px 140px;
+   
+  
+}
+.h1{
+    align-items: center;
+}
+
+.footer-list{
+    list-style: none;
+}
+.footer-link{
+    text-decoration: none;
+}
+
+/* media quary styles */
+
+@media screen and (max-width:576px) {
+
+     .box-item, .img-section{
+        gap: 30px;
+        flex-direction: column;
+       
+    }
+    .navbar{
+        flex-direction: column;
+    }
+    nav > ul{
+        gap: 20px;
+    }
+    .banner-section{
+        
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+    
+    
+
+    footer{
+        width: 390px;
+       height: 642px;
+       flex-direction:row;
+       align-items: center;
+       margin: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
